@@ -1,6 +1,11 @@
 [package]
-name = "EraseCoding"
+name = "ErasureCoding"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+crossterm = "0.27"
+ratatui = "0.24"
+tokio = { version = "1.0", features = ["full"] }
+rand = "0.8"
+clap = { version = "4.0", features = ["derive"] }
